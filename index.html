@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,112 +18,166 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-    </head>
-          <body>
-            <header>
-    <!-- NAVBAR
-    ================================================== -->
-    <nav data-spy="scroll" data-target=".navbar" data-offset-top="50">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button><!-- /.navbar-toggle -->
-              <a class="navbar-brand" href="index.html">UVM Sailing Team</a>
-            </div><!-- /.navbar-header -->
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-              </ul><!-- /.nav .navbar-nav -->
-              <ul class = "nav navbar-nav navbar-right">
-                <li><a href = "https://www.facebook.com/pages/UVM-Sailing-Team/255202822590?fref=ts"><img class="social-icon" src= "img/facebook.png" alt="Visit us on facebook"/></a></li>
-                <li><a href="https://twitter.com/UVMSailingTeam"><img class="social-icon" src= "img/twitter.png" alt="Visit us on Twitter"/></a></li>
-                <li><a href="mailto:catamountSailing@gmail.com"><img class="social-icon" src= "img/email.png" alt="mail us" /></a></li>
-              </ul><!-- /.nav .navbar-nav .navbar-right -->
-            </div><!-- /.navbar-collapse .collapse -->
-          </div><!-- /.container -->
-        </div><!-- /.container -->
-      </div><!-- /.navbar .navbar-inverse .navbar-fixed-top -->
-    </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
 
-      <!-- Carousel
+<body>
+    <header>
+        <!-- NAVBAR
+    ================================================== -->
+        <nav data-spy="scroll" data-target=".navbar" data-offset-top="50">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- /.navbar-toggle -->
+                            <a class="navbar-brand" href="index.html">UVM Sailing Team</a>
+                        </div>
+                        <!-- /.navbar-header -->
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                  <a href="index.html">Home</a>
+                                </li>
+                                <li><a href="about.html">About</a>
+                                </li>
+                                <li><a href="results.html">Results</a>
+                                </li>
+                                <li><a href="recruiting.html">Recruiting</a>
+                                </li>
+                                <li><a href="roster.html">Roster</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav .navbar-nav -->
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="https://www.facebook.com/pages/UVM-Sailing-Team/255202822590?fref=ts">
+                                        <img class="social-icon" src="img/facebook.png" alt="Visit us on facebook" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/UVMSailingTeam">
+                                        <img class="social-icon" src="img/twitter.png" alt="Visit us on Twitter" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:catamountSailing@gmail.com">
+                                        <img class="social-icon" src="img/email.png" alt="mail us" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /.nav .navbar-nav .navbar-right -->
+                        </div>
+                        <!-- /.navbar-collapse .collapse -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.navbar .navbar-inverse .navbar-fixed-top -->
+        </nav>
+
+        <!-- Carousel
       ================================================== -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol><!-- /.carousel slide -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Example headline.</h1>
-                <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div><!-- /.carousel-caption -->
-            </div><!-- /.container -->
-          </div><!-- /.item active -->
-          <div class="item">
-            <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div><!-- /.carousel-caption -->
-            </div><!-- /.container -->
-          </div><!-- /.item -->
-          <div class="item">
-            <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div><!-- /.carousel-caption -->
-            </div><!-- /.container -->
-          </div><!-- /.item -->
-        </div><!-- /.carousel-inner -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div><!-- /.carousel-slide -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- /.carousel slide -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Example headline.</h1>
+                            <p>Note: If you're viewing this page via a
+                                <code>file://</code>URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+                            </p>
+                        </div>
+                        <!-- /.carousel-caption -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.item active -->
+                <div class="item">
+                    <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+                        <!-- /.carousel-caption -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.item -->
+                <div class="item">
+                    <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                            </p>
+                        </div>
+                        <!-- /.carousel-caption -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.item -->
+            </div>
+            <!-- /.carousel-inner -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!-- /.carousel-slide -->
     </header>
 
     <div class="container">
 
-      <!-- News on left schedual on right, below the carousel -->
-      <div class="row">
-        <div class="col-xs-6 col-md-6">
-          <h2>A letter to our Alumni and Friends</h2>
-          <p>The University of Vermont Sailing Team is so excited to start another excellent season this year! With our new fleet of FJ’s we’ve started to shake off the rust and get back into college sailing! Recently we’ve been able to get 14 boats out on the water for practice, and will continue to do so with the addition of 14 new first years to the team! We are also lucky that events don’t start until September 14th, giving us plenty of time to get ready to kick some butt. We’ve got some promising first years, a new fleet, and a goal of making top 10 in the nation this year! Get ready to see us climb!</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        
-          <h2>SAVE THE DATE ALERT:</h2>
-          <p>Our Alumni Dinner will be the weekend AFTER parents weekend—The weekend of October 12th. So be sure to put that in your calendar and book hotels ahead of time. We’re starting to prepare what is always an incredible and successful night, so you should too!</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <!-- News on left schedual on right, below the carousel -->
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <h2>A letter to our Alumni and Friends</h2>
+                <p>The University of Vermont Sailing Team is so excited to start another excellent season this year! With our new fleet of FJ’s we’ve started to shake off the rust and get back into college sailing! Recently we’ve been able to get 14 boats out on the water for practice, and will continue to do so with the addition of 14 new first years to the team! We are also lucky that events don’t start until September 14th, giving us plenty of time to get ready to kick some butt. We’ve got some promising first years, a new fleet, and a goal of making top 10 in the nation this year! Get ready to see us climb!</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                </p>
 
-          <h2>Welcome to our new website</h2>
-          <p>This site is still under development so please forgive any problems. For the time being it is recommended to use Chrome browser, as it is the most compatible. Thank you for your understanding.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-xs-6 .col-md-6 -->
-      
-        <div class="col-xs-6 col-md-6">
-          <h2>Regatta Schedule</h2>
-          <p>Coming soon </p>
-          <!--
+                <h2>SAVE THE DATE ALERT:</h2>
+                <p>Our Alumni Dinner will be the weekend AFTER parents weekend—The weekend of October 12th. So be sure to put that in your calendar and book hotels ahead of time. We’re starting to prepare what is always an incredible and successful night, so you should too!</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                </p>
+
+                <h2>Welcome to our new website</h2>
+                <p>This site is still under development so please forgive any problems. For the time being it is recommended to use Chrome browser, as it is the most compatible. Thank you for your understanding.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                </p>
+            </div>
+            <!-- /.col-xs-6 .col-md-6 -->
+
+            <div class="col-xs-6 col-md-6">
+                <h2>Regatta Schedule</h2>
+                <p>Coming soon</p>
+                <!--
           <table class="table table-bordered table-condensed table-hover table-striped">
           <thead>
               <tr>
@@ -148,9 +203,14 @@
                 <td>data</td>
               </tr>
             </tbody>
-          </table>--><!-- /.table .table-bordered .table-condensed .table-hover .table-striped -->
-        </div><!-- /.col-xs-6 .col-md-6 -->
-    </div><!-- /.row -->
-  </div><!-- /.container -->
-  </body>     
+          </table>-->
+                <!-- /.table .table-bordered .table-condensed .table-hover .table-striped -->
+            </div>
+            <!-- /.col-xs-6 .col-md-6 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</body>
+
 </html>
