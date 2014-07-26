@@ -1,0 +1,212 @@
+<Roster>
+	<Sailor>
+		<Name>Sara Anibal</Name>
+		<Year>2014</Year>
+		<Home>Old Greenwich, CT</Home>
+		<High>Greenwich</High>
+	</Sailor>
+	<Sailor>
+		<Name>Carey Austin</Name>
+		<Year>2017</Year>
+		<Home>South Burlington, VT</Home>
+		<High>South Burlington</High>
+	</Sailor>
+	<Sailor>
+		<Name>Brian Baker</Name>
+		<Year>2017</Year>
+		<Home>South Burlington, VT</Home>
+		<High>South Burlington</High>
+	</Sailor>
+	<Sailor>
+		<Name>Travis Bobley</Name>
+		<Year>2017</Year>
+		<Home>Sea Cliff, NY</Home>
+		<High>North Shore</High>
+	</Sailor>
+	<Sailor>
+		<Name>Michael Booker</Name>
+		<Year>2015</Year>
+		<Home>St. Petersburg, FL</Home>
+		<High>Shorecrest Prep School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Amina Brown</Name>
+		<Year>2017</Year>
+		<Home>Jamestown, RI</Home>
+		<High>North Kingstown High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Adam Ceely</Name>
+		<Year>2015</Year>
+		<Home>Nantucket, MA</Home>
+		<High>Nantucket</High>
+	</Sailor>
+	<Sailor>
+		<Name>Hali Chesher</Name>
+		<Year>2017</Year>
+		<Home>Rhode Island</Home>
+		<High>North Kingstown</High>
+	</Sailor>
+	<Sailor>
+		<Name>Will Crary</Name>
+		<Year>2017</Year>
+		<Home>White Bear Lake, MN</Home>
+		<High>Mahtomedi</High>
+	</Sailor>
+	<Sailor>
+		<Name>Hannah Dragonas</Name>
+		<Year>2017</Year>
+		<Home>Beverly, MA</Home>
+		<High>Bishop Fenwick</High>
+	</Sailor>
+	<Sailor>
+		<Name>Jordan Factor</Name>
+		<Year>2014</Year>
+		<Home>Mount Kisco, NY</Home>
+		<High>Horace Greeley</High>
+	</Sailor>
+	<Sailor>
+		<Name>Abby Finkenauer</Name>
+		<Year>2017</Year>
+		<Home>Haddonfield, NJ</Home>
+		<High>Haddonfield Memorial</High>
+	</Sailor>
+	<Sailor>
+		<Name>Fritz Finkenauer</Name>
+		<Year>2017</Year>
+		<Home>Haddonfield, NJ</Home>
+		<High>Haddonfield Memorial</High>
+	</Sailor>
+	<Sailor>
+		<Name>Zoe Gittelson</Name>
+		<Year>-</Year>
+		<Home>-</Home>
+		<High>-</High>
+	</Sailor>
+	<Sailor>
+		<Name>Birte Gunnarsson</Name>
+		<Year>2017</Year>
+		<Home>River Vale, NJ</Home>
+		<High>Pascack Valley</High>
+	</Sailor>
+	<Sailor>
+		<Name>Nate Jermain</Name>
+		<Year>2015</Year>
+		<Home>Essex, Ma</Home>
+		<High>Manchester-Essex</High>
+	</Sailor>
+	<Sailor>
+		<Name>Lauren Jones</Name>
+		<Year>2015</Year>
+		<Home>Buffalo, NY</Home>
+		<High>Nichols</High>
+	</Sailor>
+	<Sailor>
+		<Name>Michael Kanare</Name>
+		<Year>2016</Year>
+		<Home>Wilmette, IL</Home>
+		<High>New Trier</High>
+	</Sailor>
+	<Sailor>
+		<Name>Meg MacKinnon</Name>
+		<Year>2017</Year>
+		<Home>Duxbury, MA</Home>
+		<High>Duxbury</High>
+	</Sailor>
+	<Sailor>
+		<Name>James McCracken</Name>
+		<Year>2017</Year>
+		<Home>Topsham, ME</Home>
+		<High>Mt. Ararat</High>
+	</Sailor>
+	<Sailor>
+		<Name>Francis Meisenbach</Name>
+		<Year>-</Year>
+		<Home>-</Home>
+		<High>-</High>
+	</Sailor>
+	<Sailor>
+		<Name>Catherine Mitchell </Name>
+		<Year>2014</Year>
+		<Home>Milton, MA</Home>
+		<High>Milton High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Bridget Murphy</Name>
+		<Year>2015</Year>
+		<Home>Dartmouth, MA</Home>
+		<High>Dartmouth</High>
+	</Sailor>
+	<Sailor>
+		<Name>Hank O'Brien</Name>
+		<Year>2015</Year>
+		<Home>Bay Head/Westfield, NJ</Home>
+		<High>Westfield</High>
+	</Sailor>
+	<Sailor>
+		<Name>OJ O'Connell</Name>
+		<Year>2015</Year>
+		<Home>East Lyme, CT</Home>
+		<High>East Lyme High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Madeleine Parker</Name>
+		<Year>2017</Year>
+		<Home>Boylston, MA</Home>
+		<High>St. George's School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Steven Pelissier</Name>
+		<Year>2014</Year>
+		<Home>Old Lyme, CT</Home>
+		<High>Lyme Old Lyme High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Lily Pillsbury</Name>
+		<Year>2014</Year>
+		<Home>Nahant, MA</Home>
+		<High>Swampscott High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>John Ring</Name>
+		<Year>2016</Year>
+		<Home>Buffalo, NY</Home>
+		<High>Williamsville North</High>
+	</Sailor>
+	<Sailor>
+		<Name>Callagy Ross</Name>
+		<Year>2014</Year>
+		<Home>Stowe, VT</Home>
+		<High>West Island College, Class Afloat</High>
+	</Sailor>
+	<Sailor>
+		<Name>Forrest Short</Name>
+		<Year>2017</Year>
+		<Home>La Porte, TX</Home>
+		<High>Deer Park High School</High>
+	</Sailor>
+	<Sailor>
+		<Name>Eva Williford</Name>
+		<Year>2014</Year>
+		<Home>Williston, VT</Home>
+		<High>Champlain Valley Union</High>
+	</Sailor>
+	<Sailor>
+		<Name>Megan Yeigh</Name>
+		<Year>2016</Year>
+		<Home>Annapolis, MD</Home>
+		<High>Archbishop Spalding </High>
+	</Sailor>
+	<Sailor>
+		<Name>Michael Zonnenberg</Name>
+		<Year>2015</Year>
+		<Home>Tampa, FL</Home>
+		<High>H.B. Plant</High>
+	</Sailor>
+	<Sailor>
+		<Name>Alden Martin</Name>
+		<Year>2016</Year>
+		<Home>Essex, CT</Home>
+		<High>Lyme-Old Lyme</High>
+	</Sailor>
+</Roster>
