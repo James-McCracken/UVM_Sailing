@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UVM Sailing: About</title>
+    <title>UVM Sailing: Recruiting</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,13 +45,14 @@
                         <!-- /.navbar-header -->
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home</a>
+                                <li>
+                                    <a href="index.html">Home</a>
                                 </li>
-                                <li class="active"><a href="about.html">About</a>
+                                <li><a href="about.html">About</a>
                                 </li>
                                 <li><a href="results.html">Results</a>
                                 </li>
-                                <li><a href="recruiting.html">Recruiting</a>
+                                <li class="active"><a href="recruiting.html">Recruiting</a>
                                 </li>
                                 <li><a href="roster.html">Roster</a>
                                 </li>
@@ -87,23 +88,83 @@
 
         <div class="container">
             <div class="page-header jumbotron">
-                <h1>About</h1>
+                <h1>Recruiting</h1>
             </div>
-            <h2>Some info about the team</h2>
-            <div class="col-xs-8 col-md-8" <p>Considering how well-known Burlington is for its enthusiastic outdoors sports and open-minded culture, it is no surprise that the University of Vermont Sailing Team is one of the most popular and competitive sports on campus. The Sailing Team is easily recognizable as one of the most committed, dedicated, and competitive organizations on campus. UVM Sailing Team competes in the New England Intercollegiate Sailing Association (NEISA) , which is undoubtedly the most competitive district in college sailing. The team attends as many as eight regattas per weekend - while the competition for spots at top regattas each weekend is hot, the expansive schedule ensures that everyone who demonstrates commitment to practice will have the opportunity to sail on weekends. Most regattas are either fleet or team racing in double handed dinghies, but the team sails in a variety of sloop and single handed regattas as well. The team is funded as a club sport through the Student Government Association at UVM, and fundraises actively to augment its budget each season. Having just finished 8th in the 2010 ICSA National Championships, it is clear that the UVM team refuses to use the "club" label as a reason not to perform with the nation's best.</p>
+            <h2>If you're interested in joining the team, please fill out the form below.</h2>
+            <div class="col-xs-6 col-md-6">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="Email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="FirstName" class="col-sm-2 control-label">First Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="LastName" class="col-sm-2 control-label">Last Name</label>
+                        <div id="LastName" class="col-sm-10">
+                            <input type="text" class="form-control" id="LastName" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="col-sm-2 control-label">Gender</label>
+                        <label class="radio-inline col-sm-2">
+                            <input type="radio" name="gender" id="male" value="male" checked>Male
+                        </label>
+                        <label class="radio-inline col-sm-2">
+                            <input type="radio" name="gender" id="female" value="female">Female
+                        </label>
+                    </div>
 
-                <h2>F.A.Q</h2>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">City</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="City" class="form-control">
+                        </div>
+                    </div>
 
-                <h3>How long is your season?</h3>
-                <p>We sail from September until November, and then begin again as soon as the ice thaws, usually in late March. As a substitute for lost time in March, we have a spring training trip during Spring Break, and often train with Boston teams on Fridays.</p>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">State</label>
+                        <div class="col-sm-4">
+                            <input type="text" placeholder="State" class="form-control">
+                        </div>
 
-                <h3>Does UVM offer scholarships for sailing?</h3>
-                <p>The University of Vermont does not offer scholarships for sailing; in fact, under ICSA rules no sailor may receive financial support based on sailing ability.</p>
+                        <label class="col-sm-2 control-label" for="textinput">Postcode</label>
+                        <div class="col-sm-4">
+                            <input type="text" placeholder="Post Code" class="form-control">
+                        </div>
+                    </div>
 
-                <h3>What is Burlington like?</h3>
-                <p>Burlington is a great town - it is in the truest essence a college town, complete with four local colleges. The surrounding scenery is absolutely breathtaking, and one can pursue a plethora of outdoor sports. As soon as the season ends, our sailors often head to the mountains to enjoy the winter season. With such great surroundings and such fun people, the city of Burlington is really a great place to live.</p>
+                    <div class+ "form-group">
+                        <label class="col-sm-2 control-label">School Year</label>
+                        <div class="col-sm-4">
+                            <select class="form-control">
+                                <option>H.S. Freshman</option>
+                                <option>H.S. Sophomore</option>
+                                <option>H.S. Junior</option>
+                                <option>H.S. Senior</option>
+                                <option>UVM Student</option>
+                                <option>Transfer Student</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Sailing Resume</label>
+                        <div class="col-sm-4">
+                        <input type="file" id="exampleInputFile">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
-            <!-- / .col-xs .col-md-8 -->
+
         </div>
         <!-- /.container -->
 </body>
