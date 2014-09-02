@@ -23,7 +23,8 @@ $to="johnhringiv@gmail.com";
 # The E-Mail subject
 $subject="UVM Sailing recruitment Form";
 
-$message.="Email from recruitment form";
+$message.="Email from recruitment form\n";
+
 # iterate the $_POST array
 foreach ($_GET as $key=>$value) {
     $message.=$key.": " . $value . "\n";

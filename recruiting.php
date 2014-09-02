@@ -93,58 +93,36 @@
             <div class="col-xs-6 col-md-6">
                 <form class="form-horizontal" role="form" action="send_mail.php" enctype="text/plain" method="get">
                     <div class="form-group">
-                        <label for="Email" class="col-sm-2 control-label">Email</label>
+                        <label for="email" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                            <input name="Email" type="email" class="form-control" id="Email" placeholder="Email">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="FirstName" class="col-sm-2 control-label">First Name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+                            <input name="First" type="text" class="form-control" id="FirstName" placeholder="First Name">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="LastName" class="col-sm-2 control-label">Last Name</label>
                         <div id="LastName" class="col-sm-10">
-                            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                            <input name="Last" type="text" class="form-control" id="LastName" placeholder="Last Name">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="gender" class="col-sm-2 control-label">Gender</label>
-                        <div class="col-sm-10">
-                        <label class="radio-inline col-sm-2">
-                            <input type="radio" name="gender" id="male" value="male" checked>Male
+                        <label for="Gender" class="col-sm-2 control-label">Gender</label>
+                        <div class="col-sm-4">
+                        <label class="radio-inline col-sm-2"  style="padding-right: 3em;">
+                            <input type="radio" name="Gender" id="male" value="male" checked>Male
                         </label>
                         <label class="radio-inline col-sm-2">
-                            <input type="radio" name="gender" id="female" value="female">Female
+                            <input type="radio" name="Gender" id="female" value="female">Female
                         </label>
                         </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">City</label>
-                        <div class="col-sm-10">
-                            <input type="text" placeholder="City" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">State</label>
-                        <div class="col-sm-4">
-                            <input type="text" placeholder="State" class="form-control">
-                        </div>
-
-                        <label class="col-sm-2 control-label" for="textinput">Postcode</label>
-                        <div class="col-sm-4">
-                            <input type="text" placeholder="Post Code" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
                         <label class="col-sm-2 control-label">School Year</label>
                         <div class="col-sm-4">
-                            <select class="form-control">
+                            <select class="form-control" name="Year">
                                 <option>H.S. Freshman</option>
                                 <option>H.S. Sophomore</option>
                                 <option>H.S. Junior</option>
@@ -153,16 +131,51 @@
                                 <option>Transfer Student</option>
                             </select>
                         </div>
-                        <label class="col-sm-2 control-label">Sailing Resume</label>
-                        <div class="col-sm-4">
-                        <input type="file" id="exampleInputFile">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">City</label>
+                        <div class="col-sm-10">
+                            <input name="City" type="text" placeholder="City" class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group">
+                        <label class="col-sm-2 control-label">State</label>
+                        <div class="col-sm-4">
+                            <input name="State" type="text" placeholder="State" class="form-control">
+                        </div>
+
+                        <label class="col-sm-2 control-label" for="textinput">Postcode</label>
+                        <div class="col-sm-4">
+                            <input name="Zip" type="text" placeholder="Post Code" class="form-control">
+                        </div>
+                    </div>
+                    <!--
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">School Year</label>
+                        <div class="col-sm-4">
+                            <select class="form-control" name="Year">
+                                <option>H.S. Freshman</option>
+                                <option>H.S. Sophomore</option>
+                                <option>H.S. Junior</option>
+                                <option>H.S. Senior</option>
+                                <option>UVM Student</option>
+                                <option>Transfer Student</option>
+                            </select>
+                        </div>
+                        
+                        <label class="col-sm-2 control-label">Sailing Resume</label>
+                        <div class="col-sm-4">
+                        <input type="file" name="resume"  id="Resume">
+                        </div>
+                        
+                    </div>
+                    -->
+                    <div class="form-group">
                         <label class="col-sm-2 control-label">Comments</label>
                         <div class="col-sm-10">
-                            <textarea rows="5" class="form-control"></textarea>
+                            <textarea rows="5" class="form-control"  name="Comments"></textarea>
                         </div>
                     </div>
 
