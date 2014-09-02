@@ -9,7 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -86,13 +85,13 @@
             <!-- /.navbar .navbar-inverse .navbar-fixed-top -->
         </nav>
 
-        <div class="container">
+        <div class="container content-box">
             <div class="page-header jumbotron">
-                <h1>Recruiting</h1>
+                <h1>Recruiting <small> If interested, fill out the form below.</h1>
             </div>
-            <h2>If you're interested in joining the team, please fill out the form below.</h2>
+            <br>
             <div class="col-xs-6 col-md-6">
-                <form class="form-horizontal" role="form">
+                <form class="form-horizontal" role="form" action="send_mail.php" enctype="text/plain" method="get">
                     <div class="form-group">
                         <label for="Email" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-10">
@@ -108,17 +107,19 @@
                     <div class="form-group">
                         <label for="LastName" class="col-sm-2 control-label">Last Name</label>
                         <div id="LastName" class="col-sm-10">
-                            <input type="text" class="form-control" id="LastName" placeholder="Email">
+                            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="gender" class="col-sm-2 control-label">Gender</label>
+                        <div class="col-sm-10">
                         <label class="radio-inline col-sm-2">
                             <input type="radio" name="gender" id="male" value="male" checked>Male
                         </label>
                         <label class="radio-inline col-sm-2">
                             <input type="radio" name="gender" id="female" value="female">Female
                         </label>
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -140,7 +141,7 @@
                         </div>
                     </div>
 
-                    <div class+ "form-group">
+                    <div class="form-group">
                         <label class="col-sm-2 control-label">School Year</label>
                         <div class="col-sm-4">
                             <select class="form-control">
@@ -152,16 +153,22 @@
                                 <option>Transfer Student</option>
                             </select>
                         </div>
-                    </div>
-
-                    <div class="form-group">
                         <label class="col-sm-2 control-label">Sailing Resume</label>
                         <div class="col-sm-4">
                         <input type="file" id="exampleInputFile">
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Comments</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+
                     <button type="submit" class="btn btn-default">Submit</button>
+                    <br>
+                    <br>
                 </form>
             </div>
 
